@@ -125,10 +125,21 @@ a{
     <b  class="newTitle" >Products</b>
     <p>
       Adidas produces a wide range of products, including sports shoes, apparel,and accessories.</p><br><br>
-  <label>number1 <input type="number" id="input1"></label>
-  <label>number2 <input type="number" id="input2"></label>
+  <form id="form">
+      <label>number1 <input required type="number" id="input1"></label>
+  <select id="selectedOperation">
+    <option value="+">+</option>
+    <option value="-">-</option>
+    <option value="*">*</option>
+    <option value="/">/</option>
+  </select>
+  <label>number2 <input required type="number" id="input2"></label>=
   <span id="result">??</span>
+  <input type="submit">
   <button onclick="sumation()">calulate</button>
+  <br> 
+</form>
+
       <script src="index.js"></script>
   
 </body>

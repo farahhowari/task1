@@ -51,6 +51,8 @@ var newClass = document.getElementsByClassName('newTitle')
 newClass[1].innerHTML="this is an update for the new list "
 var findp= document.getElementsByTagName('p')
 //findp[2].innerHTML="farah"
+var form=document.getElementById('form')
+console.log(form)
 for(let i = 0; i<findp.length;i++){
     if(i % 2 == 0){
         findp[i].style.backgroundColor="green"
@@ -64,6 +66,7 @@ findp [i].innerHTML=" this is an update form for loop"
 
 }
 }
+var selectedOperation=document.getElementById('selectedOperation')
 function sumation (){
    var input1=document.getElementById('input1').value
    var input2=document.getElementById('input2').value
@@ -72,6 +75,21 @@ function sumation (){
    var result = document.getElementById('result')
    result.innerHTML=z
 }
+form.addEventListener('submit',function(event){
+event.preventDefault();
+var input1=document.getElementById('input1').value
+   var input2=document.getElementById('input2').value
+   var z= parseInt(input1)+parseInt(input2)
+
+   var result = document.getElementById('result')
+   result.innerHTML=z
+}
+switch(selectedOperation){
+    case '+'=
+    break;
+    case'
+}
+
 
 
 
