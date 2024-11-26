@@ -1,6 +1,86 @@
-.container-fluid{
-    margin-left: 10px;
+#navbarSupportedContent{
+    margin-left: 30%;
 }
-img{
-    width: 30px;
+.ICONS{
+margin-right: 30px;
+
 }
+.so{
+    margin-right: 30px;
+}
+svg{
+   width: 40px;
+   height: 30px;
+   background-color: rgb(234, 228, 228);
+   border-radius: 50px;
+   padding: 5px;
+   
+}
+.navbar-nav{
+    color: rgb(23, 22, 22);
+}
+.main{
+    background-image: url(background.png);
+    width: 120%;
+    height: 580px;
+    
+    
+}
+.image{
+   margin-left: 500px;
+
+}
+.h1{
+    display: inline;
+}
+h5{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.summer{
+    color: rgb(241, 96, 35);
+}
+h6{
+    font-size: 15px;
+}
+.item{
+    padding: 80px;
+}
+.shop{
+    background-color: rgb(241, 96, 35);
+    border-radius: 7px;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    
+}
+.tele{
+    width: 50px;
+   height: 60px;
+   background-color:white;
+   border-radius: 10px;
+   padding: 10px;
+    color:  rgb(241, 96, 35)
+
+}
+p{
+    display: inline;
+    font-size: 25px;
+}
+
+
+.img{
+    width:350px;
+    height: 250px
+}
+.b{
+    font-size: 25px;
+  
+}
+.count{
+    margin-left: 1px;
+   
+}
+.pro{
+    width:135%
+   }
+
