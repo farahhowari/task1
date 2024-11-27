@@ -83,4 +83,32 @@ p{
 .pro{
     width:135%
    }
+   #t1{
+    grid-area: t1;
+    text-align: left;
+       font-size: 30px;
+   }
+   #t2{
+    grid-area: t2;
+   }
+  #t3{
+    grid-area: t3;
+    text-align: center;
+  }
+  .newcard{
+    display: grid;
+    grid-template-areas: "t1 t3"
+    "t2 t3";
+  }
+  .btn{
+    text-align: center;
+    background-color: rgb(241, 96, 35) ;
+   padding: 10px;
+      margin: 10px;
+      font-size: 15px;
+      border-radius: 5px;
+      height: 50px
+
+
+  }
 
